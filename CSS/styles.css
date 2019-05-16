@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+}
+
+.logo {
+	background-color: rgb(51,153,204);
+	font-family: Century Gothic;
+	font-size: 50px;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	color: white;
+	position: relative;
+	left: 0;
+}
+
+.nav {
+	background-color: #303030;
+	padding-bottom: 2px;
+	padding-top: 6px;
+	padding-left: 20px;
+	padding-right: 16px;
+	margin-bottom: 0;
+	word-spacing: 30px;
+	font-family: Myanmar Text;
+}
+
+.blog-icon {
+	float: right;
+	padding-right: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+}
+
+a:hover {
+	background-color: gray;
+	padding-bottom: 2px;
+	padding-top: 6px;
+
+}
+
+.news {
+	border: 1px solid gray;
+	max-width: 850px;
+	width: auto;
+	font-family: Myanmar Text;
+	/*position: relative;
+	left: 60px;*/
+	margin-left: 60px;
+	font-size: 14px;
+	text-shadow: 1px 0;
+	padding-left: 10px;
+	margin-top: 20px;
+	color: #303030;
+}
+
+ul{
+   list-style-type: none;
+   margin-top: 0;
+   padding-left: 5px;
+
+}
+
+li:before {
+	padding-right: 5px;
+	content: "- ";
+}
+
+li {
+	padding-top: 0;
+	padding-bottom: 5px;
+
+}
+
+.info {
+	margin-left: 60px;
+	font-family: Myanmar Text;
+	max-width: 1090px;
+	font-size: 14px;
+	line-height: 1.6;
+	text-shadow: 1px 0;
+	color: #303030;
+	width: auto;
+}
+
+.new-sheading {
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 0;
+	font-size: 20px;
+	color: #303030;
+	width: auto;
+}
+
+.welcome-heading {
+	font-size: 22px;
+	padding-top: 20px;
+	margin-bottom: 0;
+	margin-left: 60px;
+	font-family: Myanmar Text;
+	max-width: 1090px;
+	width: auto;
+	line-height: 1.6;
+	text-shadow: 1px 0;
+	color: #303030;
+}
